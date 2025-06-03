@@ -6,6 +6,10 @@ export const AuthProvider = ({ children }) => {
 	const [user, setUser] = useState(null);
 
 	// 🔁 Load from localStorage on mount
+
+
+
+	
 	useEffect(() => {
 		const token = localStorage.getItem('accessToken');
 		const role = localStorage.getItem('role');
