@@ -1,0 +1,39 @@
+/* globals.css */
+
+/* Body and base styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar branding */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Movie card hover effect */
+  .card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+  }
+  
+  /* Movie image */
+  .card-img-top {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Center card button */
+  .card-body .btn {
+    margin-top: 10px;
+  }
+  
+  /* Responsive spacing */
+  .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
